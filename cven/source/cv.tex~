@@ -109,7 +109,7 @@ Linux
 
 \begin{entrylist}
 
-\entry{2013} 
+\entry{\phantom{2012-}2013} 
 {Participation in the ACM-ICPC Latin-American programming contest}{}{}
 
 
@@ -127,26 +127,26 @@ Linux
 \section{Online Courses}
 \begin{entrylist}
 \entry
-{2012}
+{\phantom{2012-}2012}
 {Artificial Intelligence}
 {By Dan Klein}
 {The University of California at Berkeley}
 
 \entry
-{2012}
+{\phantom{2012-}2012}
 {Software as a Service}
 {By Armando Fox and David Patterson}
 {The University of California at Berkeley}
 
 
 \entry
-{2011}
+{\phantom{2012-}2011}
 {Introduction to Artificial Intelligence}
 {By Peter Norvig and Sebastian Thrun}
 {Stanford University}
 
 \entry
-{2011}
+{\phantom{2012-}2011}
 {Machine Learning course}
 {By Andrew Ng}
 {Stanford University}
@@ -156,4 +156,3 @@ Linux
 
 
 \end{document}
-
