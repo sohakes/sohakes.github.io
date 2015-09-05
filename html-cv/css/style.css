@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#page {
+  display: flex;
+  flex-flow: row wrap;
+
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+#header {
+  width: 100%;
+  font-size:80px;
+  text-align: center;
+}
+
+#aside {
+  flex: 1;
+  padding-right: 20px;
+}
+
+#main {
+  flex: 3;
+}
+
+#content {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+}
+
+
+h1{
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.entry h2{
+  font-size:25px;
+  margin:0px;
+}
+
+.entry h3{
+  font-size:17px;
+  margin:0px;
+}
+
+p{
+  text-align: justify;
+}
