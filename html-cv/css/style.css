@@ -1,31 +1,56 @@
 body{
   margin: 0;
   padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+
 }
 
+@page {
+margin: 0.5cm;
+margin-left: 1.5cm;
+margin-right: 1.5cm;
+}
 
+@font-face {
+    font-family: texygerosbold;
+    src: url(fonts/texgyreheros-bold.otf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(fonts/Lato-Hairline.otf);
+}
+
+@font-face {
+    font-family: texygerosregular;
+    src: url(fonts/texgyreheros-regular.otf);
+}
 
 #page {
   display: flex;
   flex-flow: row wrap;
-
   width: 1000px;
   margin: 0 auto 0 auto;
+  font-family: texygerosregular;
+
 }
 
 #header {
   width: 100%;
-  font-size:80px;
+  font-size:70px;
   text-align: center;
+  font-family: texygerosbold;
 }
 
 #aside {
   flex: 1;
-  padding-right: 20px;
+  padding-right: 30px;
+  text-align:right;
 }
 
 #main {
   flex: 3;
+  text-align:left;
 }
 
 #content {
@@ -37,9 +62,18 @@ body{
 
 
 h1{
-  font-size: 35px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+  font-size: 38px;
+  margin:0px;
+  font-family: texygerosbold;
+}
+
+#aside .entry h1{
+  font-size: 28px;
+}
+
+.entry{
+  margin-bottom: 20px;
+  margin-top:10px;
 }
 
 .entry h2{
@@ -53,5 +87,7 @@ h1{
 }
 
 p{
-  text-align: justify;
+  color: rgba(0, 0, 0, 0.80);
+  font-family: texygerosregular;
+  margin: 0px;
 }
