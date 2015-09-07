@@ -140,7 +140,7 @@ p{
   display: flex;
 }
 
-.entry.date h3{
+.entry.date > h3{
   /*float:left;*/
   /*display:block;*/
   width: 12%;
