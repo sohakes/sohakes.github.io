@@ -92,11 +92,13 @@ h1{
 .entry{
   margin-bottom: 15px;
   margin-top:10px;
+  color: rgba(0, 0, 0, 1);
 }
 
 .entry h2{
   font-size:20px;
   margin:0px;
+  color: rgba(0, 0, 0, 0.78);
   /*font-family: 'Merriweather';*/
 }
 
@@ -125,8 +127,26 @@ p{
   width: 100%;
 }
 
-.columnwrap .entry{
+.columnwrap  .right{
+  text-align: right;
+}
 
+.columnwrap  .entry{
   width: 50%;
-  justify-content: space-between;
+}
+
+.entry.date{
+  /*display:block;*/
+  display: flex;
+}
+
+.entry.date h3{
+  /*float:left;*/
+  /*display:block;*/
+  width: 12%;
+}
+.notdate{
+  /*float:right;*/
+  /*display:block;*/
+  width: 88%;
 }
