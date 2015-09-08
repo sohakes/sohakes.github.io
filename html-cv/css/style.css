@@ -7,8 +7,8 @@ body{
 
 @page {
 margin: 0.5cm;
-margin-left: 1cm;
-margin-right: 1cm;
+margin-left: 1.5cm;
+margin-right: 1.5cm;
 }
 
 @font-face {
@@ -54,10 +54,11 @@ margin-right: 1cm;
 
 #header {
   width: 100%;
-  font-size:65px;
+  font-size:75px;
   text-align: center;
   /*font-family: 'Proxima Nova';*/
   font-family: texygerosbold;
+  margin-bottom: 15px;
 }
 
 #aside {
@@ -77,6 +78,11 @@ margin-right: 1cm;
   flex-flow: row wrap;
   align-items: baseline;
 }
+
+ul{
+  list-style-type: none;
+}
+
 
 
 h1{
@@ -149,4 +155,24 @@ p{
   /*float:right;*/
   /*display:block;*/
   width: 88%;
+}
+
+.category{
+  margin-bottom: 25px;
+}
+
+.skills {
+  display: flex;
+  margin-bottom: 20px;
+  /*flex-flow: row wrap;*/
+}
+
+.skills h3{
+  width: 30%;
+  text-align: left;
+}
+
+.skills ul{
+  width: 70%;
+  margin:0px;
 }
