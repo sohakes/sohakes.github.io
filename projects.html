@@ -15,8 +15,8 @@
 			<ul>
 				<li><a href="./index.html">About me</a>
 				</li>
-				<li><a href="./cvpt/cv_rafaelmtomazela_pt.pdf">CV (portuguese)</a>
-				</li>
+				<!-- <li><a href="./cvpt/cv_rafaelmtomazela_pt.pdf">CV (portuguese)</a>
+				</li> -->
 				<li><a href="./cven/cv_rafaelmtomazela_en.pdf">CV (english)</a>
 				</li>
 				<li><a href="https://github.com/sohakes">GitHub</a>
@@ -28,19 +28,161 @@
 			</ul>
 		</div>
 		<div id="content">
-			<h2>Projects</h2>
+			<h1>Projects</h1>
 
-      You can see my GitHub repositories <a href="https://github.com/sohakes">here</a>.
+			<p> Some projects I have made are listed below.
+				You can also see all my GitHub repositories <a href="https://github.com/sohakes">here</a>.</p>
 
-      What I consider to be my coolest project is a game I made with a friend,
-        called <a href="http://curseoftheredmage.kraiom.com/">Colorful People Quest:
-        Curse of the Red Mage</a>. The code is available at
-        <a href="https://github.com/sohakes/Curse-of-the-Red-Mage">GitHub</a>.
+			<h2>Paper implementations</h2>
+
+			<p>Some algorithms I implemented while pursuing my master's degree are listed below.</p>
+
+			<div id="content">
+					
+				<figure style="float: right; margin: 20px 20px; padding: 0px">
+					<a href="./imgs/atlas.png">
+						<img src="./imgs/atlas.png" alt="Atlas on Mujoco" width="300px"/>
+					</a>
+				</figure>	
+				
+				<h3>Classical control algorithms for bipedal walking (work in progress)</h3>	
+
+				<p>My master's degree subject is deep reinforcement learning applied to a bipedal robot.
+					Since RL algorithms need a lot of data to work, and simulation usually transfers poorly to a real robot,
+					I thought it would be useful to learn some classical algorithms. I also think Control Theory is closely
+					tied to RL.
+				</p>
+
+				<p>
+					The description for this project is mostly on 
+					 <a href="https://github.com/sohakes/atlas-mujoco-classical-control">this</a> github page.
+				</p>
+						
+			</div>
+
+			<div id="content">
+					
+				<figure style="float: left; margin: 20px 20px; padding: 0px">
+					<a href="./imgs/sift.png">
+						<img src="./imgs/sift.png" alt="Sift and RANSAC match" width="400px"/>
+					</a>
+				</figure>	
+				
+				<h3><a href="https://en.wikipedia.org/wiki/Scale-invariant_feature_transform">Sift</a>
+					 and <a href="https://en.wikipedia.org/wiki/Random_sample_consensus">RANSAC</a></h3>	
+
+				<p>It was originally an assignment from a Computer Vision course,
+					 and it was implemented by me and
+					 <a href="https://www.linkedin.com/in/nathana-facion/">Nathana Facion</a>. The assignment asked us
+					to use Sift, RANSAC and affine transformations to stabilize a video.</p>
+
+				<p>We first tested if the algorithm could "glue" back an image that was cut in half,
+					with an intersection in both. We use Sift to extract relevant keypoints, a simple KNN algorithm for
+					matching similar keypoints, and then RANSAC to find the best affine transformation between the images, given
+					the matches would have outliers.</p>
+
+				<p>	The figure shows two images that were originally part of the same one, and how the combination of
+					 algorithms found the correct matches for the transformation.
+					The code is available <a href="https://github.com/sohakes/hw2-compvision-unicamp">here</a>, 
+					 and the <a href="https://github.com/sohakes/hw2-compvision-unicamp/blob/master/report.pdf">report</a> file
+					 has more information about the algorithms, implementations and source papers.
+				</p>
+						
+			</div>
+
+			<h2>Games</h2>
+
+			<p>I create some games at game jams. Mostly with friends and just for fun.</p>
+
+			<div id="content">
+		
+				<figure style="float: right; margin: 20px 20px; padding: 0px">
+					<a href="./imgs/leave-me-alone.png">
+						<img src="./imgs/leave-me-alone.jpg" alt="Leave me Alone" width="400px"/>
+					</a>
+				</figure>	
+				
+				<h3>Leave me Alone</h3>	
+
+				<p>Leave me Alone is a game made by me and 
+					<a href="https://edugpinheiro.wordpress.com/">Eduardo Pinheiro</a>
+					 in 3 days for the <a href="https://ldjam.com/">42nd Ludum Dare</a> game jam.
+					It is a turn-based strategy game meant to be played by two people in the same computer.
+					We have also added a really simple AI in case you want to play alone (it's not as fun).
+					All the 3D models, programming and music were done by us.</p>
+
+				<p>The game can be played <a href="https://kraiom.itch.io/leave-me-alone">here</a>.</p>
+						
+			</div>
+
+			<div id="content">
+					
+				<figure style="float: left; margin: 20px 20px; padding: 0">
+					<a href="./imgs/bloodew-valley.png">
+						<img src="./imgs/bloodew-valley.png" alt="Bloodew Valley" width="400px"/>
+					</a>
+				</figure>	
+				
+				<h3>Bloodew Valley</h3>	
+
+				<p>A game made in 3 days using Unity 3D engine for <a href="https://ldjam.com/">Ludum Dare 41</a>.
+					The theme for this game jam was "Combine 2 Incompatible Genres".
+					I chose to create a game which mix farming and survival horror genres.
+					The game assets, except for the animations, were also (poorly) created by me.
+					</p>
+
+				<p>The game code and assets are available in 
+					 <a href="https://github.com/sohakes/bloodew-valley-ldjam-41.">this git repository</a>.
+					The game can be played <a href="https://kraiom.itch.io/bloodew-valley">here</a>.</p>
+						
+			</div>
+
+			<div id="content">
+					
+				<figure style="float: right; margin: 20px 20px; padding: 0">
+					<a href="./imgs/ninurta.png">
+						<img src="./imgs/ninurta.png" alt="Ninurta" width="400px"/>
+					</a>
+				</figure>	
+				
+				<h3>Ninurta</h3>	
+
+				<p>A game me and <a href="https://www.linkedin.com/in/guilherme-marques-23a64625/">Guilherme Marques</a>
+					 made in 3 days for <a href="https://ldjam.com/">Ludum Dare 36</a>.
+					The theme for that game jam was Ancient Technology, and the game was made using javascript
+					 with the Phaser engine.
+					
+					We used an asset pack made by Sparklin Labs for the graphics.</p>
+
+				<p>The code is available in <a href="https://github.com/sohakes/ld36">this git repository</a>.
+					The game can be played <a href="https://kraiom.itch.io/ninurta">here</a>.</p>
+						
+			</div>
+
+			<div id="content">
+					
+				<figure style="float: left; margin: 20px 20px; padding: 0">
+					<a href="./imgs/cotrm.png">
+						<img src="./imgs/cotrm.png" alt="Colorful People Quest: Curse of the Red Mage" width="400px"/>
+					</a>
+				</figure>	
+				
+				<h3>Colorful People Quest: Curse of the Red Mage</h3>	
+
+				<p>A game made for the Game in Ten Days challenge at <a href="www.kongregate.com">Kongregate</a>.
+					It is a simple game to be played by two people in the same screen and keyboard.
+					The code and art were made by me and 
+					<a href="https://www.linkedin.com/in/guilherme-marques-23a64625/">Guilherme Marques</a>.
+					
+					</p>
+
+				<p>The game code and assets are available at <a href="https://github.com/sohakes/Curse-of-the-Red-Mage">this repository</a>.
+					The game can be played <a href="http://curseoftheredmage.kraiom.com/">here</a>.</p>
+						
+			</div>
 
 		</div>
-		<div id="footer">
-			<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-		</div>
+
 	</div>
 </body>
 </html>
